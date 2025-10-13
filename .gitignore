@@ -1,0 +1,17 @@
+﻿# Ignore environment files and secrets
+.env
+backend/.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Audio and data files
+backend/temp_audio/
+backend/data/
+backend/uploaded_media/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,36 @@
+# Web framework and core
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+pydantic==2.7.0
+python-dotenv==1.0.1
+httpx==0.27.0
+
+# Database
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.30
+
+# Authentication and security
+bcrypt==4.1.3
+passlib[bcrypt]==1.7.4
+python-jose==3.3.0
+
+# AI, embeddings, and NLP
+langchain==0.2.14
+langchain-community==0.2.14
+langchain-google-genai==0.1.8
+sentence-transformers==3.0.1
+
+# Audio / speech processing
+gTTS==2.5.1
+SpeechRecognition==3.10.0
+pydub==0.25.1
+moviepy==1.0.3
+
+# Image and OCR
+Pillow==10.3.0
+easyocr==1.7.1
+PyMuPDF==1.24.10
+
+# Utilities
+aiofiles==23.2.1
+uuid==1.30
